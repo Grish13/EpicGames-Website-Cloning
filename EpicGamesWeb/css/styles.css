@@ -1,0 +1,939 @@
+ body {
+  margin: 0;
+  background-color: #121212;
+  overflow-x: hidden;
+
+}
+
+header{
+  background-color: #2A2A2A;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.navUl{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+
+
+}
+
+li{
+  margin:1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #CCCCCC;
+  letter-spacing: 0.1rem;
+
+}
+
+.lowerChild {
+  font-family: 'Open Sans', sans-serif;
+  color: #F5F5F5;
+  font-weight: normal;
+
+}
+
+.lowerNav {
+  background-color: #121212;
+}
+
+.lowerNavColl{
+  width: 75%;
+  height: auto;
+  border:1px solid white;
+  background-color: #121212;
+  margin: 0 auto;
+  padding: 1.6em 0em;
+  display: flex;
+
+}
+
+form.nosubmit {
+  border: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+input.nosubmit {
+  width: 10em;
+  display: block;
+  border-radius: 30em;
+  border-color:#2A2A2A ;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  background-color:#2A2A2A ;
+}
+
+ .maincontainer {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #121212;
+  border:1px solid violet;
+
+}
+.rightCarouCon{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.listCont{
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+
+
+}
+.listContro{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+
+}
+.gameCont{
+  height: 100%;
+  width:100%;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+}
+.gameCont:hover{
+  background-color: rgba(255,255,255,.08);;
+
+}
+.icongameCon{
+  width:20%;
+  margin: 0em 1.5em;
+
+}
+.gameLblCOn{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing:1px;
+
+}
+
+.imgRigNav{
+  width: 100%;
+  border-radius: 7px;
+
+}
+
+.imgiconleft {
+  width:30px;
+  height: 35px;
+  margin: 0.5em 1em;
+}
+
+.imgiconright {
+  width: 19px;
+  height: 19px;
+}
+.contentcontainer {
+  width: 75%;
+  border:1px solid red;
+  display: flex;
+
+}
+
+.carouselcontainer {
+  width: 80%;
+  height: auto;
+  border:1px solid white;
+  margin-right:1em;
+
+}
+.my-slider{
+  width: 100%;
+}
+
+.navLower {
+  padding: 0;
+  margin: 0 1em;
+  display: flex;
+  align-items: center;
+
+}
+.sbx-medium {
+  display: inline-block;
+  position: relative;
+  width: 160px;
+  height: 40px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.sbx-medium__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.sbx-medium__input {
+  display: inline-block;
+  -webkit-transition: box-shadow .4s ease, background .4s ease;
+  transition: box-shadow .4s ease, background .4s ease;
+  border: 0;
+  border-radius: 19px;
+  box-shadow: inset 0 0 0 1px #2A2A2A;
+  background: #2A2A2A;
+  padding: 0;
+  padding-right: 30px;
+  padding-left: 37px;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: inherit;
+  #2A2A2A
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.sbx-medium__input::-webkit-search-decoration, .sbx-medium__input::-webkit-search-cancel-button, .sbx-medium__input::-webkit-search-results-button, .sbx-medium__input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.sbx-medium__input:hover {
+  box-shadow: inset 0 0 0 1px silver;
+}
+
+.sbx-medium__input:focus, .sbx-medium__input:active {
+  outline: 0;
+  box-shadow: inset 0 0 0 1px #AAAAAA;
+  background: #FFFFFF;
+}
+
+.sbx-medium__input::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-medium__input::-moz-placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-medium__input:-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-medium__input::placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-medium__submit {
+  position: absolute;
+  top: 0;
+  right: inherit;
+  left: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 18px 0 0 18px;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0;
+  width: 37px;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  font-size: inherit;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.sbx-medium__submit::before {
+  display: inline-block;
+  margin-right: -4px;
+  height: 100%;
+  vertical-align: middle;
+  content: '';
+}
+
+.sbx-medium__submit:hover, .sbx-medium__submit:active {
+  cursor: pointer;
+}
+
+.sbx-medium__submit:focus {
+  outline: 0;
+}
+
+.sbx-medium__submit svg {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+  fill: #666666;
+}
+
+.sbx-medium__reset {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+.sbx-medium__reset:focus {
+  outline: 0;
+}
+
+.sbx-medium__reset svg {
+  display: block;
+  margin: 4px;
+  width: 13px;
+  height: 13px;
+}
+
+.sbx-medium__input:valid ~ .sbx-medium__reset {
+  display: block;
+  -webkit-animation-name: sbx-reset-in;
+          animation-name: sbx-reset-in;
+  -webkit-animation-duration: .15s;
+          animation-duration: .15s;
+}
+
+@-webkit-keyframes sbx-reset-in {
+  0% {
+    -webkit-transform: translate3d(-20%, 0, 0);
+            transform: translate3d(-20%, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes sbx-reset-in {
+  0% {
+    -webkit-transform: translate3d(-20%, 0, 0);
+            transform: translate3d(-20%, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+.colrightcontent{
+  height: auto;
+  width: 17%;
+  display: flex;
+
+}
+.rightNav {
+  position: absolute;
+  right: 0
+
+}
+.navRight{
+  display: flex;
+  align-items: center;
+}
+
+.imgiconrightlang{
+  width: 19px;
+  height: 19px;
+  margin: 0 3em;
+}
+.carImage {
+  height: auto;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.navSlider {
+  list-style: none;
+  margin: 0 2.2em;
+
+}
+
+.navSlider li {
+  letter-spacing: 0.010em;
+  font-size: 0.8rem;
+  font-weight:1000;
+}
+.navAllImage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2em 0em;
+
+
+}
+.navRightImage {
+  width: 25%;
+  border-radius: 11px;
+}
+.gamesOnSale {
+
+width: 75%;
+height: auto;
+margin: 2.5em 0em;
+}
+.saleMainImageCon{
+
+
+}
+.sale-slider {
+  height: 270px;
+  width: auto;
+
+}
+.navSaleImage {
+  height:auto;
+  width: 100%;
+  border-radius: 0.1em;
+
+}
+
+.saleSec{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 1em;
+
+}
+
+.gameText h2{
+margin: auto;
+color: white;
+font-size:1.1rem;
+font-weight: normal;
+font-family: 'Open Sans', sans-serif;
+}
+.gameText{
+height: auto;
+}
+#controls{
+  margin-left: auto;
+}
+.previous{
+width: 2.3em;
+height: 2.3em;
+border-radius: 50%;
+background-color:rgb(32 32 32);
+border: none;
+padding: 0;
+margin-right: 0.5em;
+
+
+
+}
+.next{
+width: 2.3em;
+height: 2.3em;
+border-radius: 50%;
+background-color:rgb(32 32 32);
+border: none;
+padding: 0;
+
+}
+
+.material-symbols-outlined {
+  color: white;
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 5
+}
+.sale3Rows{
+  display: flex;
+  justify-content: space-between;
+  border:1px solid green;
+  width: 75%;
+  height: auto;
+}
+.labelSaleCon{
+  height: auto;
+  margin-top: 1em;
+}
+
+h4{
+  font-size: 0.90rem;
+  color: white;
+  margin: 0.5em 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+
+}
+.sale-slider{
+  height: auto;
+}
+.labelPriceSale{
+  display: flex;
+  align-items: center;
+}
+
+.discountBox{
+  height: 23px;
+  width: 45px;
+  border-radius: 5px;
+  background: #0074E4;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 0.6rem;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.discountedPrice{
+color: white;
+height: auto;
+margin: 0 0.7em;
+font-size: 0.8rem;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.price{
+color: white;
+height: auto;
+font-size: 0.9rem;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.navSaleImages{
+  height: auto;
+  width: 100%
+}
+.row{
+  width: 31.2%;
+
+}
+
+.row1Photo{
+  height: auto;
+
+
+}
+
+.coll3images{
+  width: 100%;
+  border-radius: 20px;
+}
+.row1Contents{
+  padding: 0em 1em;
+}
+
+.row1ContentTitle{
+
+  color: #F5F5F5;
+  margin-top: 1em;
+  font-size:1.2rem;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+.row1ContentInfo{
+  color: #F5F5F599;
+  text-align: justify;
+  margin-top: 0.60em;
+  font-size:0.90rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.50px;
+
+}
+
+.freeGamesCont{
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF1A;
+  border-radius: 5px;
+  width:75%;
+  margin-top: 5em;
+
+}
+
+.freeGamesCol1{
+  width: 93%;
+  height: auto;
+  margin: 2em 0em;
+}
+.freeGamesLogoandView{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+button{
+	border: 0.1px solid #F5F5F5;
+  border-radius: 3px;
+  background-color:#FFFFFF1A;
+	padding:0.5em 1.4em;
+	cursor: pointer;
+  color: #F5F5F5;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+
+	}
+button:hover {
+	}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 48
+  }
+  .gifticoncon{
+    display: flex;
+    align-items: center;
+  }
+  .freeGamesHeader{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    color:#F5F5F5;
+    margin: 0em 0.6em;
+  }
+  .rightView{
+    margin-left: auto;
+
+  }
+  .freeGamescol2{
+    height: auto;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .colsss{
+    width:100%;
+    border-radius: 0.4em 0.4em 0em 0em;
+    vertical-align: bottom;
+
+  }
+  .game1{
+    width: 49%;
+    height: 100%;
+  }
+
+  .freeButton{
+    background-color: #0078F2;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0em 0em 0.4em 0.4em;
+
+   }
+  .comSoon{
+    background-color: #000000;
+  }
+
+  .freeTxt{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 0.8rem;
+    padding: 0.4em 0em;
+    color:#F5F5F5;
+  }
+  .imgsorc{
+    height: auto;
+  }
+  .freeGamesLbl{
+    color:#F5F5F5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 1em;
+  }
+
+  .dateLbl{
+    color:#F5F5F599;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.9rem;
+
+  }
+  .freeNowLbl{
+    margin-top: 0.2em;
+  }
+.newTopComCon{
+  margin-top: 3.5em;
+  width:75%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.ThreerowCon{
+  height: 100%;
+  width:100%;
+  list-style: none;
+  display: flex;
+  padding: 0;
+
+}
+.ReSeCo{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-right: 1.5em;
+
+}
+.lastReseco{
+  margin-left: 1em;
+}
+.middleReseco{
+  border-left : 1px solid #282828;
+  border-right : 1px solid #282828;
+  padding-left: 1.1em;
+}
+.reseCoCol{
+  height: auto;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.threeCollHead{
+  display: flex;
+  align-items: center;
+  height: auto;
+
+}
+.newReal{
+  color: #F5F5F5;
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: normal;
+}
+.viewMore{
+  color: #F5F5F5;
+  font-size: 0.5rem;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  border: 0.1px solid #F5F5F5;
+  border-radius: 3px;
+  padding: 1.2em 2.3em;
+  margin-left: auto;
+}
+.reSeCoCont{
+  list-style: none;
+  padding:0;
+  display:flex;
+  flex-direction: column;
+
+
+}
+.reSeCogamesCont{
+  height: 6.5em;
+  border-radius: 20px;
+  margin: 0;
+  padding: 1em 1.5em;
+}
+.reSeCoMidCont{
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+
+}
+.reSeCogamesTitle{
+  height: auto;
+  width: auto;
+  margin-left: 1em;
+
+
+}
+.reSeCoTitle{
+  padding-bottom: 0.5em;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing:normal;
+
+}
+.gamePrice{
+  font-size: 0.7rem;
+  font-weight: normal;
+  letter-spacing:normal;
+}
+.imageHolder{
+  height: 100%;
+  width: 18%;
+
+}
+.reSoCoImage{
+  height: 100%;
+  width: 100%;
+  border-radius: 0.2em;
+}
+.carContainerDetails{
+  position: absolute;
+  width: 11%;
+  height: 100%;
+  border: 2px solid blue;
+  opacity: 0.6;
+  background: linear-gradient(270deg, rgba(11, 11, 11, 0) 0%, #0B0B0B 100%, #0B0B0B 100%);
+}
+
+.gameDesc{
+
+}
+.spanDesc{
+
+
+
+}
+.BtnPlayForFree{
+
+
+}
+
+.priceStarting{
+
+}
+.outNowDes{
+
+}
+
+.addDesc{
+
+}
+.addWish{
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+.logoIcon{
+  width: auto;
+  height:100%;
+
+}
+.gameLogo{
+  border: 2px solid black;
+  height:35%;
+  margin-bottom: 2em;
+}
+.secndCarContainer{
+  margin-left: 2em;
+  border:2px solid green;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+
+}
+.conone{
+
+}
+.outNow{
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+
+}
+.descRip{
+  margin-top: 0.6em;
+  display: block;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 650;
+  letter-spacing: 0.5px;
+}
+.conetwo{
+
+}
+.starPrice{
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.startAt{
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+
+}
+.priceStart{
+  margin-left: 0.3em;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+
+}
+.btnAndWish{
+  display: flex;
+  align-items: center;
+
+}
+.mainBtn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  height: 50px;
+  width:auto;
+  border-radius: 4px;
+  padding: 0 45px;
+  letter-spacing: 0.5px;
+
+}
+.logoPlus{
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+}
+.addTowH{
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.58rem;
+  margin-left:0.3em;
+  letter-spacing: 0.5px;
+}
+.conCOn{
+  border: 2px solid red;
+  position: absolute;
+  height: 100%;
+  width: 18%;
+  display: flex;
+
+}
